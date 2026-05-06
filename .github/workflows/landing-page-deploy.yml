@@ -1,16 +1,6 @@
 name: landing-page-deploy
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - .github/workflows/landing-page-deploy.yml
-      - .github/workflows/landing-page-ci.yml
-      - apps/landing-page/**
-      - package.json
-      - pnpm-lock.yaml
-      - pnpm-workspace.yaml
   workflow_dispatch:
 
 permissions:
